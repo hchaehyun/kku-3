@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Window 객체 2</title>
+    <script language="JavaScript">
+        function winOpen(){
+            window.open("http://www.ehan.co.kr","이한출판사");
+        }
+        function winOpenWithOpt(){
+            window.open("http://www.ehan.co.kr","이한출판사","width=500, height=300, left=0, top=0, resizable=no");
+        }
+        function fullOpen(){
+            window.open("http://www.ehan.co.kr","이한출판사","fullscreen");
+        }
+        function channelOpen(){
+            window.open("http://www.ehan.co.kr","이한출판사","channelmode");
+        }ㅁㄴㅇ
+    </script>
+</head>
+<body onLoad="window.resizeTo(500, 300)">
+    <p>
+        <input type="button" onCLick="winOpen()" value="옵션없이 팝업윈도우 열기">
+    <p>
+        <input type="button" onCLick="winOpenWithOpt()" value="옵션 값 있는 팝업윈도우 열기">
+    <p>
+        <input type="button" onCLick="fullOpen()" value="fullscreen 모드로 열기">
+    <p>
+        <input type="button" onCLick="channelOpen()" value="채널모드로 열기">
+</body>
+</html>
