@@ -1,2 +1,3 @@
-# kku-3
-kku 3학년 과제물들
+# kku-projects
+kku 소프트웨어전공<br>
+학부과제물 백업
